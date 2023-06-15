@@ -1,0 +1,21 @@
+name: Build Modpacks
+on:
+  pull_request:
+    branches:
+      - main
+      - develop
+    types: [closed]
+
+  workflow_dispatch:
+
+
+jobs:
+  build:
+    steps:
+      - name: Checking out repo
+        uses: actions/checkout@v3
+      - name: Download ModPackager
+        run: |
+          gh release download --repo SoapboxRaceWorld/ModPackager 2.1.0
+      - name: Check what we got
+        run: ls
