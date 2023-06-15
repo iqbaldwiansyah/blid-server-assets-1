@@ -1,0 +1,21 @@
+{
+    "encrypt_files": false,
+    "entries": [
+        {
+            "type": "directory",
+            "local_path": "GFX",
+            "game_path": "GFX"
+        },
+        {
+            "type": "directory",
+            "local_path": "LANGUAGES",
+            "game_path": "LANGUAGES"
+        },
+        {
+            "type": "directory",
+            "local_path": "GLOBAL",
+            "game_path": "GLOBAL"
+        }
+    ],
+    "auto_split_mode": "none"
+}

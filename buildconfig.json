@@ -1,0 +1,9 @@
+{
+    "packages": [
+        {
+            "source_name": "assets",
+            "distribution_name": "balapliarid"
+        }
+    ],
+    "generate_index": true
+}

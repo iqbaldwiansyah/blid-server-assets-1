@@ -1,0 +1,4 @@
+.pkg-cache.json
+modpackager/*
+output/*
+!*/README.md
