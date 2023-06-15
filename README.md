@@ -3,6 +3,25 @@
 This repo contains assets that our server use.
 Please note that these files are licensed under AGPL-3, means that you are obliged to make your version of this repository open-sourced, keep the license, and credit us if you want to use these files.
 
+## Configuring
+`buildconfig.json` holds the primary configuration of the mod packager.
+```json
+{
+    "packages": [
+        {
+            "source_name": "assets",
+            "distribution_name": "balapliarid"
+        }
+    ],
+    "generate_index": true
+}
+```
+- `source_name` - the name of your mod pack inside `src/` folder
+- `distribution_name` - name of bundled mod pack (output file) in the `output/` folder
+- `generate_index` - whether or not to create an `index.json` that contains mod bundles' name and checksum for the game launcher to use
+
+For modpack configuration, see [README.md](src/README.md)
+
 ## Building
 
 `git clone` this repository and `cd` into the folder
