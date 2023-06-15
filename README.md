@@ -1,11 +1,17 @@
 # NFS World Server Mods for Balap Liar-ID
 
 This repo contains assets that our server use.
-Please note that these files are licensed under AGPL-3, means that you are obliged to keep the license and credit us if you want to use these files.
+Please note that these files are licensed under AGPL-3, means that you are obliged to make your version of this repository open-sourced, keep the license, and credit us if you want to use these files.
 
 ## Building
 
-You have to first download ModPackager (https://github.com/SoapboxRaceWorld/ModPackager/releases/), extract the contents (just the files without folder) to the `modpackager` folder.
+`git clone` this repository and `cd` into the folder
+```
+git clone https://github.com/Plyrs1/blid-server-assets
+cd blid-server-assets
+```
+
+Then download ModPackager (https://github.com/SoapboxRaceWorld/ModPackager/releases/), extract the contents (just the files without folder) to the `modpackager` folder.
 
 Then you can just run `build.bat` or `build.sh` (WIP), depending on your operating system, and then you can find the resulting mod package inside `output` folder.
 
